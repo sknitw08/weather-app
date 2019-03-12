@@ -1,4 +1,3 @@
-console.log('In browser');
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 
@@ -21,8 +20,8 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 messageOne.textContent = data.location;
                 messageTwo.textContent = data.forecast;
-                console.log(data.location);
-                console.log(data.forecast);
+                //console.log(data.location);
+                //console.log(data.forecast);
             }
         })
     })
