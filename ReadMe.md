@@ -1,6 +1,7 @@
 Weather App
 
 Input: Location
+
 Output: Weather condition
 
 Steps to Install:
